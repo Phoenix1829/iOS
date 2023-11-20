@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C615B6472B0C0BEE00DEBFFA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C615B6462B0C0BEE00DEBFFA /* Poppins-Bold.ttf */; };
+		C615B6492B0C0C0200DEBFFA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C615B6482B0C0C0200DEBFFA /* Poppins-Regular.ttf */; };
+		C6678D282B0BEFF00062CB36 /* FontsTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6678D272B0BEFF00062CB36 /* FontsTheme.swift */; };
+		C6678D2A2B0BF19E0062CB36 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6678D292B0BF19E0062CB36 /* Header.swift */; };
+		C6678D2C2B0BF5990062CB36 /* CardDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6678D2B2B0BF5990062CB36 /* CardDoctor.swift */; };
 		C681B0312B090FB700611968 /* iOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C681B0302B090FB700611968 /* iOSAppApp.swift */; };
 		C681B0332B090FB700611968 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C681B0322B090FB700611968 /* ContentView.swift */; };
 		C681B0352B090FB900611968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C681B0342B090FB900611968 /* Assets.xcassets */; };
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C615B6462B0C0BEE00DEBFFA /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../Downloads/Poppins 2/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		C615B6482B0C0C0200DEBFFA /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../Downloads/Poppins 2/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		C615B64A2B0C0D0800DEBFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C6678D272B0BEFF00062CB36 /* FontsTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsTheme.swift; sourceTree = "<group>"; };
+		C6678D292B0BF19E0062CB36 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		C6678D2B2B0BF5990062CB36 /* CardDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDoctor.swift; sourceTree = "<group>"; };
 		C681B02D2B090FB700611968 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C681B0302B090FB700611968 /* iOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppApp.swift; sourceTree = "<group>"; };
 		C681B0322B090FB700611968 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +82,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C615B6452B0C0B5E00DEBFFA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C615B6482B0C0C0200DEBFFA /* Poppins-Regular.ttf */,
+				C615B6462B0C0BEE00DEBFFA /* Poppins-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C6678D162B0BED0A0062CB36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6678D292B0BF19E0062CB36 /* Header.swift */,
+				C6678D2B2B0BF5990062CB36 /* CardDoctor.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6678D242B0BEFA70062CB36 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				C6678D272B0BEFF00062CB36 /* FontsTheme.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
 		C681B0242B090FB700611968 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +131,10 @@
 		C681B02F2B090FB700611968 /* iOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				C615B64A2B0C0D0800DEBFFA /* Info.plist */,
+				C615B6452B0C0B5E00DEBFFA /* Fonts */,
+				C6678D242B0BEFA70062CB36 /* Themes */,
+				C6678D162B0BED0A0062CB36 /* Views */,
 				C681B0302B090FB700611968 /* iOSAppApp.swift */,
 				C681B0322B090FB700611968 /* ContentView.swift */,
 				C681B0342B090FB900611968 /* Assets.xcassets */,
@@ -232,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C681B0382B090FB900611968 /* Preview Assets.xcassets in Resources */,
+				C615B6472B0C0BEE00DEBFFA /* Poppins-Bold.ttf in Resources */,
 				C681B0352B090FB900611968 /* Assets.xcassets in Resources */,
+				C615B6492B0C0C0200DEBFFA /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6678D2A2B0BF19E0062CB36 /* Header.swift in Sources */,
 				C681B0332B090FB700611968 /* ContentView.swift in Sources */,
 				C681B0312B090FB700611968 /* iOSAppApp.swift in Sources */,
+				C6678D282B0BEFF00062CB36 /* FontsTheme.swift in Sources */,
+				C6678D2C2B0BF5990062CB36 /* CardDoctor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +468,7 @@
 				DEVELOPMENT_TEAM = N56VGJ6NC4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +499,7 @@
 				DEVELOPMENT_TEAM = N56VGJ6NC4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
