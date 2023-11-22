@@ -14,6 +14,9 @@ struct ContentView: View {
             
             Header()
             CardDoctor()
+            SearchLine()
+            Categories()
+            Spacer()
                 
             
         }

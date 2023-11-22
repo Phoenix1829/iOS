@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C615B6472B0C0BEE00DEBFFA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C615B6462B0C0BEE00DEBFFA /* Poppins-Bold.ttf */; };
 		C615B6492B0C0C0200DEBFFA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C615B6482B0C0C0200DEBFFA /* Poppins-Regular.ttf */; };
+		C638CA032B0E220800214881 /* SearchLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638CA022B0E220800214881 /* SearchLine.swift */; };
+		C638CA052B0E309000214881 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638CA042B0E309000214881 /* Categories.swift */; };
 		C6678D282B0BEFF00062CB36 /* FontsTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6678D272B0BEFF00062CB36 /* FontsTheme.swift */; };
 		C6678D2A2B0BF19E0062CB36 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6678D292B0BF19E0062CB36 /* Header.swift */; };
 		C6678D2C2B0BF5990062CB36 /* CardDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6678D2B2B0BF5990062CB36 /* CardDoctor.swift */; };
@@ -42,6 +44,8 @@
 		C615B6462B0C0BEE00DEBFFA /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../Downloads/Poppins 2/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		C615B6482B0C0C0200DEBFFA /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../Downloads/Poppins 2/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		C615B64A2B0C0D0800DEBFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C638CA022B0E220800214881 /* SearchLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLine.swift; sourceTree = "<group>"; };
+		C638CA042B0E309000214881 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		C6678D272B0BEFF00062CB36 /* FontsTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsTheme.swift; sourceTree = "<group>"; };
 		C6678D292B0BF19E0062CB36 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		C6678D2B2B0BF5990062CB36 /* CardDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDoctor.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				C6678D292B0BF19E0062CB36 /* Header.swift */,
 				C6678D2B2B0BF5990062CB36 /* CardDoctor.swift */,
+				C638CA022B0E220800214881 /* SearchLine.swift */,
+				C638CA042B0E309000214881 /* Categories.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -301,10 +307,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6678D2A2B0BF19E0062CB36 /* Header.swift in Sources */,
+				C638CA052B0E309000214881 /* Categories.swift in Sources */,
 				C681B0332B090FB700611968 /* ContentView.swift in Sources */,
 				C681B0312B090FB700611968 /* iOSAppApp.swift in Sources */,
 				C6678D282B0BEFF00062CB36 /* FontsTheme.swift in Sources */,
 				C6678D2C2B0BF5990062CB36 /* CardDoctor.swift in Sources */,
+				C638CA032B0E220800214881 /* SearchLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
