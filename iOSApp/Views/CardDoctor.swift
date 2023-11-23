@@ -14,7 +14,7 @@ struct CardDoctor: View {
                 Image("avatar_doctor")
                     .resizable()
                     .frame(width: 50, height: 50)
-                    .cornerRadius(25)
+                    .clipShape(Circle())
                 VStack(alignment: .leading){
                     Text("Dr. Imran Syahir")
                         .font(Font.custom(FontsTheme.Poppins_Bold, size: 16))

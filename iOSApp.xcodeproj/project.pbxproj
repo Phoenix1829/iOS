@@ -14,6 +14,10 @@
 		C6678D282B0BEFF00062CB36 /* FontsTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6678D272B0BEFF00062CB36 /* FontsTheme.swift */; };
 		C6678D2A2B0BF19E0062CB36 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6678D292B0BF19E0062CB36 /* Header.swift */; };
 		C6678D2C2B0BF5990062CB36 /* CardDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6678D2B2B0BF5990062CB36 /* CardDoctor.swift */; };
+		C670B27D2B0E6F0F004D5A25 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C670B27C2B0E6F0F004D5A25 /* NavigationBar.swift */; };
+		C670B27F2B0E6FFD004D5A25 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C670B27E2B0E6FFD004D5A25 /* Nunito-Bold.ttf */; };
+		C670B2812B0E701F004D5A25 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C670B2802B0E701F004D5A25 /* Nunito-Regular.ttf */; };
+		C67D5DCA2B0E515100FC2944 /* NearDoctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67D5DC92B0E515100FC2944 /* NearDoctors.swift */; };
 		C681B0312B090FB700611968 /* iOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C681B0302B090FB700611968 /* iOSAppApp.swift */; };
 		C681B0332B090FB700611968 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C681B0322B090FB700611968 /* ContentView.swift */; };
 		C681B0352B090FB900611968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C681B0342B090FB900611968 /* Assets.xcassets */; };
@@ -49,6 +53,10 @@
 		C6678D272B0BEFF00062CB36 /* FontsTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsTheme.swift; sourceTree = "<group>"; };
 		C6678D292B0BF19E0062CB36 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		C6678D2B2B0BF5990062CB36 /* CardDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDoctor.swift; sourceTree = "<group>"; };
+		C670B27C2B0E6F0F004D5A25 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		C670B27E2B0E6FFD004D5A25 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Bold.ttf"; path = "../../../../Downloads/Nunito 2/static/Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		C670B2802B0E701F004D5A25 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Regular.ttf"; path = "../../../../Downloads/Nunito 2/static/Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		C67D5DC92B0E515100FC2944 /* NearDoctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctors.swift; sourceTree = "<group>"; };
 		C681B02D2B090FB700611968 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C681B0302B090FB700611968 /* iOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppApp.swift; sourceTree = "<group>"; };
 		C681B0322B090FB700611968 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +97,8 @@
 		C615B6452B0C0B5E00DEBFFA /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				C670B2802B0E701F004D5A25 /* Nunito-Regular.ttf */,
+				C670B27E2B0E6FFD004D5A25 /* Nunito-Bold.ttf */,
 				C615B6482B0C0C0200DEBFFA /* Poppins-Regular.ttf */,
 				C615B6462B0C0BEE00DEBFFA /* Poppins-Bold.ttf */,
 			);
@@ -102,6 +112,8 @@
 				C6678D2B2B0BF5990062CB36 /* CardDoctor.swift */,
 				C638CA022B0E220800214881 /* SearchLine.swift */,
 				C638CA042B0E309000214881 /* Categories.swift */,
+				C67D5DC92B0E515100FC2944 /* NearDoctors.swift */,
+				C670B27C2B0E6F0F004D5A25 /* NavigationBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,7 +290,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C670B2812B0E701F004D5A25 /* Nunito-Regular.ttf in Resources */,
 				C681B0382B090FB900611968 /* Preview Assets.xcassets in Resources */,
+				C670B27F2B0E6FFD004D5A25 /* Nunito-Bold.ttf in Resources */,
 				C615B6472B0C0BEE00DEBFFA /* Poppins-Bold.ttf in Resources */,
 				C681B0352B090FB900611968 /* Assets.xcassets in Resources */,
 				C615B6492B0C0C0200DEBFFA /* Poppins-Regular.ttf in Resources */,
@@ -306,10 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67D5DCA2B0E515100FC2944 /* NearDoctors.swift in Sources */,
 				C6678D2A2B0BF19E0062CB36 /* Header.swift in Sources */,
 				C638CA052B0E309000214881 /* Categories.swift in Sources */,
 				C681B0332B090FB700611968 /* ContentView.swift in Sources */,
 				C681B0312B090FB700611968 /* iOSAppApp.swift in Sources */,
+				C670B27D2B0E6F0F004D5A25 /* NavigationBar.swift in Sources */,
 				C6678D282B0BEFF00062CB36 /* FontsTheme.swift in Sources */,
 				C6678D2C2B0BF5990062CB36 /* CardDoctor.swift in Sources */,
 				C638CA032B0E220800214881 /* SearchLine.swift in Sources */,

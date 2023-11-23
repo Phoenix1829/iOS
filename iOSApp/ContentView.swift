@@ -9,20 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-    
-        VStack(){
+        ZStack(){
+            ScrollView{
+        
+                VStack(){
             
-            Header()
-            CardDoctor()
-            SearchLine()
-            Categories()
-            Spacer()
-                
+                    Header()
+                    CardDoctor()
+                    SearchLine()
+                    Categories()
+                    NearDoctors()
+                    Spacer()
+                    
             
+                }
+            .padding(20)
+            }
+            VStack(){
+                Spacer()
+                NavigationBar()
+            }
         }
-        .padding(20)
     }
 }
+
 
 
 struct ContentView_Previews: PreviewProvider {
